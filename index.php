@@ -19,13 +19,13 @@
                 <div class="p-6 sm:p-16">
                     <h2 class="mb-8 text-2xl text-cyan-900 font-bold">Sign in to issen school</h2>
 
-                    <form action="" class="space-y-8">
+                    <form action="./includes/signup.inc.php" class="space-y-8">
                         <div class="space-y-2">
                             <label for="email" class="text-gray-700">Email</label>
                             <input  type="email" name="email" id="email" 
-class="block w-full px-4 py-3 rounded-md border border-gray-300 text-gray-600 transition duration-300
-    focus:ring-2 focus:ring-sky-300 focus:outline-none
-    invalid:ring-2 invalid:ring-red-400"
+                                    class="block w-full px-4 py-3 rounded-md border border-gray-300 text-gray-600 transition duration-300
+                                        focus:ring-2 focus:ring-sky-300 focus:outline-none
+                                        invalid:ring-2 invalid:ring-red-400"
                             >
                         </div>
 
@@ -43,7 +43,7 @@ class="block w-full px-4 py-3 rounded-md border border-gray-300 text-gray-600 tr
                             >
                         </div>
 
-                        <button type="submit" 
+                        <button type="submit" name="submit"
                                 class="w-full py-3 px-6 rounded-md bg-sky-600
                                     focus:bg-sky-700 active:bg-sky-500">
                             <span class="text-white">Continue</span>
@@ -51,7 +51,7 @@ class="block w-full px-4 py-3 rounded-md border border-gray-300 text-gray-600 tr
 
                         <p class="border-t pt-6 text-sm">
                             Don't have an account ? 
-                            <a href="signup.form.php" class="text-sky-500">Sign up</a>
+                            <a href="signup.php" class="text-sky-500">Sign up</a>
                         </p>
                     </form>
                 </div>
